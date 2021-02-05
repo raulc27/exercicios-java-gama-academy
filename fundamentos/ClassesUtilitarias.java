@@ -16,7 +16,7 @@ public class ClassesUtilitarias {
 		
 		System.out.println(sdf.format(date));
 		
-		String recibo = String.format("Recebi de %s, o valor de R$ %.2f",aluno,  valor);
+		String recibo = String.format("Recebi de %s,  o valor de R$ %.2f",aluno,  valor);
 		
 		System.out.println(recibo);
 	}
